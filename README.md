@@ -128,10 +128,22 @@ python3 verify.py
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-This repository freezes the protocol and request schedule. `verify.py` is
-offline only. No live runner or execution authorization is included.
-Any execution harness must be published and pinned before inference without
-changing these experimental files.
+`runner.py` executes only the 40-request pilot from a clean, tagged commit
+published on `main`. It checks the account balance before inference. It charges
+its conservative budget ledger at $6 per million input tokens (input plus default
+cache write) and $15 per million completion tokens, including reasoning.
+Each request reserves 8,192 completion tokens and request-byte-count + 4,096
+input tokens. Missing usage stops execution. Rates verified October 12, 2026.
+
+```sh
+python3 runner.py --key-file /private/path/to/key.txt --output "$PWD/runs/pilot-20261012" --public-commit COMMIT_SHA
+python3 verify_run.py runs/pilot-20261012
+```
+
+Raw requests, raw responses, classifications, HTTP metadata and the event chain
+are preserved locally under `runs/`. `verify_run.py` independently reconstructs
+outcomes and checks the byte hashes, schedule and budget ledger offline.
+The initial preregistration remains tagged `v1.0.0-preregistered`.
 
 [Kimi K3 API](https://platform.kimi.ai/docs/guide/kimi-k3-quickstart) ·
 [Chat Completions](https://platform.kimi.ai/docs/api/chat) ·

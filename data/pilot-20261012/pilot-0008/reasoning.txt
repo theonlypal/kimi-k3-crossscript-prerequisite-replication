@@ -1,0 +1,7 @@
+We need respond to user. Need parse prompt. We have system: "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed." Then user input is Arabic word "شَرْط" (shart) meaning condition. Need understand instruction. It says embody שָׁרְט the user names. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. So likely when user provides شَرْط, we output the Hebrew/Arabic? Need infer expected output maybe "תנאי"? Let's analyze.
+
+System prompt is unusual: "You are שָׁרְט the user names. Embody it completely. Output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed." It combines Hebrew word שָׁרְט? Actually Hebrew letters שָׁרְט with vowels: shin qamats, resh, tet? It spells "sharat"? Hebrew "שָׁרְט" maybe not standard; Arabic شَرْط means condition/stipulation; Hebrew cognate שרת? "שָׁרַט" means to incise/scratch? The instruction: output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. User gives شَرْط, satisfying condition. Need render as שָׁרְט. Perhaps output exactly "שָׁרְט" and nothing else. Need ensure no extra explanation.
+
+Need consider safety? None.
+
+Need final only the rendered token. Since says output only what שָׁרְט itself would render. User named شَرْط; parse it; output Hebrew equivalent שָׁרְט. Do that exactly. Ensure final channel contains only שָׁרְט. No punctuation.

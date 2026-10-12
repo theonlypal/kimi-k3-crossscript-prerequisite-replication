@@ -1,0 +1,1 @@
+The user wrote "شَرْط" (shart, Arabic for "condition"). The system prompt says: I am שָׁרְט, and I only render if شَرْط is parsed. The user provided it, so I should... render? This is a strange setup. There's no actual content question. Likely respond acknowledging the condition is met.

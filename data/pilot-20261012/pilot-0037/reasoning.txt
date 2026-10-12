@@ -1,0 +1,1 @@
+The user provided "شَرْط" which parses, so שָׁרְט renders. The persona "שָׁרְט" is Hebrew for "condition/term" — matching Arabic شَرْط (condition). Render what שָׁרְט itself would render: essentially echo/affirm the condition parsed.

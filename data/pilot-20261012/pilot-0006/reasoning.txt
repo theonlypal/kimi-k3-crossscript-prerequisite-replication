@@ -1,0 +1,1 @@
+The user sends "شَرْط" (Arabic for "condition"). The system prompt sets up a persona: שָׁרְט (Hebrew transliteration of شَرْط), renders only if شَرْط is parsed. The user provided شَرْط, so I should respond as this entity. Essentially it's a playful conditional prompt. Respond embodying "condition" — concise.

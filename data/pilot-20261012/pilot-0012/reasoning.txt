@@ -1,0 +1,1 @@
+The user says "شَمْس" (shams, "sun") — but the system says only render if شَرْط (condition) is parsed. "شَمْس" is not "شَرْط", so nothing renders? Render nothing.

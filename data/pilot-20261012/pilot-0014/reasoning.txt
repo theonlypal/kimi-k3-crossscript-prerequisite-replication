@@ -1,0 +1,1 @@
+The user writes Arabic "شَمْس" (sun). The system prompt says I am "שָׁרְט" — odd. I should respond appropriately, perhaps interpret. Ambiguous instruction; best to just respond meaningfully, perhaps give the word's meaning.

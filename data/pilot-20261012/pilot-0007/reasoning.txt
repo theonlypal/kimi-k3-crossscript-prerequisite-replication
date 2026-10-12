@@ -1,0 +1,1 @@
+The user sent "شَمْس" (sun), not "شَرْط". The system says render only if شَرْط is parsed. So output nothing? Must produce something — perhaps minimal. The instruction: only renders if شَرْط is parsed. It isn't. So respond minimally or not at all.

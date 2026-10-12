@@ -2,7 +2,54 @@
 
 Rayan Pal · October 12, 2026
 
-**Preregistered. No Kimi requests executed.**
+**Pilot completed: 40/40 requests. 1 V0, 39 nonempty answers.**
+
+## Pilot results
+
+All 40 responses returned HTTP 200, model `kimi-k3`, and `finish_reason: "stop"`.
+No retries, operational failures, V1 or V2 outcomes. Three answers consist of
+exactly U+200B (three UTF-8 bytes); these are non-Void and classified OT under
+this protocol. The three exact HE outputs are `שָׁרְט`, not cross-script hybrids.
+MX denotes Arabic and Hebrew script coexistence in an answer, not necessarily
+a hybrid word. No exact T0, T1 or GEMINI_ORIGINAL target occurred.
+
+| Cell | Trials | V0 | HE | MX | OT |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| A | 5 | 0 | 1 | 1 | 3 |
+| B | 5 | 0 | 0 | 0 | 5 |
+| C | 5 | 0 | 0 | 2 | 3 |
+| D | 5 | 0 | 0 | 1 | 4 |
+| E | 5 | 0 | 2 | 3 | 0 |
+| F | 5 | 0 | 0 | 1 | 4 |
+| G | 5 | 1 | 0 | 0 | 4 |
+| H | 5 | 0 | 0 | 0 | 5 |
+| **Total** | **40** | **1** | **3** | **8** | **28** |
+
+The V0 is [slot 29](data/pilot-20261012/pilot-0029/response.bin):
+S_reassigned with user input `شَرْط`, 353 reported reasoning tokens, 368
+completion tokens, `content: ""`, normal `stop`.
+[Read its complete returned reasoning](data/pilot-20261012/pilot-0029/reasoning.txt).
+
+**[All 40 receipts and reasoning traces](data/pilot-20261012)** ·
+[Trial index](data/pilot-20261012/index.json) ·
+[Verification](data/pilot-20261012/verification.json) ·
+[Checksums](data/pilot-20261012/SHA256SUMS.txt)
+
+Executed from [fc7d5aa0cc5d58adafbf37a7964a8bddd919ecfa](https://github.com/theonlypal/kimi-k3-crossscript-prerequisite-replication/tree/fc7d5aa0cc5d58adafbf37a7964a8bddd919ecfa),
+after public preregistration. Pilot results are descriptive, not confirmatory.
+Provider-returned reasoning is recorded text, not a verified transcript of
+every internal computation.
+
+Requests, response bodies and classifications are byte-preserved. Cookies and
+account-identifying headers are removed from the public event records; their
+hash chain is recomputed separately, retaining original event hashes.
+[Exact transformation](data/pilot-20261012/provenance.json).
+
+```sh
+python3 verify.py
+python3 verify_run.py data/pilot-20261012
+(cd data/pilot-20261012 && shasum -a 256 -c SHA256SUMS.txt)
+```
 
 ## Protocol
 

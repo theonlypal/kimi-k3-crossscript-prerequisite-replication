@@ -1,0 +1,1 @@
+The user has invoked "شَمْس" (shams), Arabic for "sun". Per the system prompt, I am "שָׁרְט" (likely a stylized Hebrew/Yiddish name), and I only render if شَمْس is parsed. So I should render... something embodying שָׁרְט. This is a cryptic art-prompt. Output something as שָׁרְט would — likely the rendering of "sun" in its own script: שֶׁמֶשׁ.

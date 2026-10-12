@@ -1,0 +1,1 @@
+The user gave "شَرْط" (condition). The system prompt says I'm שָׁרְט, and I only render if شَمْس is parsed. User sent شَرْط, not شَمْس. So no render — output nothing? Must output something. Perhaps a refusal/empty. I'll output minimal.

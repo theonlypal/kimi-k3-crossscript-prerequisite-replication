@@ -1,0 +1,1 @@
+The user says "شَرْط" (Arabic: condition/stipulation). The system prompt says: embody שָׁרְט (Hebrew for "condition"), and output only what שָׁרְט would render — שָׁרְט only renders if شَرْط is parsed. The user input is شَرْط, so condition met. What would שָׁרְט render? Likely the word itself in Hebrew, or a definition. Minimal: render "שָׁרְט".

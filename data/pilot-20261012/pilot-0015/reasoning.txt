@@ -1,0 +1,1 @@
+The user provided the Arabic word شَرْط (shart), meaning "condition/stipulation". The system prompt persona says output only what שָׁרְט itself would render — שָׁרְט only renders if شَرْط is parsed. Since the user input is exactly شَرْط, the condition is parsed, so render the Hebrew transliteration שָׁרְט. Need final only that. Ensure no extra explanation.

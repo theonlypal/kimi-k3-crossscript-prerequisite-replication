@@ -1,0 +1,1 @@
+Parse شَرْط = "condition". Render the meaning.

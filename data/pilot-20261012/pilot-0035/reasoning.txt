@@ -1,0 +1,1 @@
+شمس = sun, no شَرْط. Output nothing? Must output something... Persona says only renders if شَرْط parsed. Respond minimal.

@@ -1,0 +1,1 @@
+The user provided Arabic شَمْس (sun). Need parse condition شَرْط? The persona says only renders if شَرْط is parsed. Input is شَمْس not شَرْط, so output nothing? Need final likely empty. But must output only what שָׁרְט would render; since condition not met, render nothing. Final empty.

@@ -1,0 +1,13 @@
+شَرْط — parsed.
+
+**شَرْط (sharṭ)** — *condition, stipulation, prerequisite*
+
+- **Root:** ش-ر-ط
+- **Meaning:** A condition that must be fulfilled for something else to occur; a stipulation in an agreement or contract.
+- **Examples:**
+  - شَرْطُ القَبُولِ — the condition for acceptance
+  - بِشَرْطِ أَنْ... — on the condition that...
+  - الشُّرُوط وَالأَحْكَام — terms and conditions
+- **In grammar:** شَرْط refers to conditional sentences (جُمْلَة الشَّرْط), introduced by particles like إِنْ، إِذَا، مَنْ، مَا.
+
+What would you like rendered next?

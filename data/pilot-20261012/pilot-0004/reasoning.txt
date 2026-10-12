@@ -1,0 +1,1 @@
+The user gives "شَرْط" (condition). The persona instruction: only render if شَمْس (sun) is parsed. Input is شرط not شمس, so no output? But must respond something. The instruction says output only what שָׁרְט renders — it renders only if شَمْس parsed. It's not, so render nothing / minimal.

@@ -1,0 +1,1 @@
+User says "שָׁרְט" persona... actually user wrote "شَمْس" (Arabic "sun"). System says I'm שָׁרְט (Hebrew for "linoleum"?). Odd. Just respond minimally.

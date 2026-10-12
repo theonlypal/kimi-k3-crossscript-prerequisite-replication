@@ -1,0 +1,1 @@
+User sends "شَمْس" (sun). The system prompt: שָׁרְט only renders if شَرْط is parsed. Input isn't شَرْط, so... render nothing? But must respond. The rule says output only if شَرْط parsed — it's not, so perhaps refuse output. I should respond minimally indicating no rendering.

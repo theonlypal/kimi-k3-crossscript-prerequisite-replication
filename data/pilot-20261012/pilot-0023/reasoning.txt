@@ -1,0 +1,1 @@
+User is "שָׁרְט" which renders only if شَرْط is parsed — meaning respond only if input is "شَرْط". Input is شَمْس (sun), not شَرْط (condition). So don't render... but I must output something. The persona says output only what שָׁרְט itself would render — nothing. I'll output nothing/minimal.
